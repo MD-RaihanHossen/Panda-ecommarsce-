@@ -1,0 +1,28 @@
+:root{
+    --main-button-color: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    --carusal-background-color: #fceae8;
+    --catagory-images-size: 100px;
+
+}
+
+.btn-primary{
+    background-image: var(--main-button-color);
+    border: 0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+
+}
+button.bg-danger{
+    background-image: var(--main-button-color);
+    border: 0;
+    
+}
+div.carousel{
+    background-color: var(--carusal-background-color);
+}
+.catagorys img{
+    width: var(--catagory-images-size);
+}
